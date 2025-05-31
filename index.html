@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <title>W3.CSS Template - The Band</title>
 </head>
 <body>
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tour</a></li>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#content">Band</a></li>
+                <li><a href="#tour-section">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#more">
                         More 
-                        <i class="fas fa-angle-down arrow_btn"></i>
+                        <i class="arrow_btn ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
                         <li><a href="">Merchandise</a></li>
@@ -31,19 +35,63 @@
 
             <!-- Begin seach -->
             <div id="seach_btn">
-                <i class="seach_icon"></i>
+                <i class="ti-search seach_icon"></i>
             </div>
 
         </div>
+
         <div id="slider">
             <div class="text-content">
                 <h3 class="text-heading">Los Angeles</h3>
                 <p class="text-description">We had the best time playing at Venice Beach!</p>
             </div>
         </div>
+
         <div id="content">
-            
+            <!-- About section -->
+            <div class="content-section">
+                <h2 class="heading">The Band</h2>
+                <p class="sub-heading"><i>We love music</i></p>
+                <p class="content-desc">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="member-info">
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="bandmember image">
+                    </div>
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="bandmember image">
+                    </div>
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="bandmember image">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- Tour Date section -->
+            <div id="tour-section" class="text-white">
+                <div class="content-section">
+                    <h2 class="heading">Tour Dates</h2>
+                    <p class="sub-heading"><i>We love music</i></p>                    
+                    <ul class="date-list">
+                        <li class="month">September <span class="sold-out">Sold Out</span></li>
+                        <li class="month">October <span class="sold-out">Sold Out</span></li>
+                        <li class="month">November</li>
+                    </ul>                  
+                </div>
+            </div>
+
+            <!-- Contact -->
+             <div id="contact">
+                <div class="content-section">
+                    <h2 class="heading">Contact</h2>
+                    <p class="sub-heading"><i>Fan? Drop a note!</i></p>  
+                </div>
+             </div>
         </div>
+        
+        
         <div id="footer">
 
         </div>
