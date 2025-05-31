@@ -10,7 +10,15 @@
 } */
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.text-white{
+    color: #fff !important;
 }
 
 #header{
@@ -72,6 +80,10 @@ html{
     padding: 8px 16px;
 }
 
+#nav .arrow_btn{
+    font-size: 12px;
+}
+
 #seach_btn{
     position: absolute;
     right: 0;
@@ -81,6 +93,7 @@ html{
     color: #fff;
     text-align: center;
     line-height: 46px;
+    font-size: 14px;
 }
 
 #seach_btn:hover{
@@ -113,10 +126,62 @@ html{
     margin-top: 25px;
 }
 
-/* #content{
-
+#content{
+    padding: 16px 0px;
 }
 
-#footer{
+#content .content-section{
+    justify-content: center;
+    width: auto;
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+#content .content-section .sub-heading,
+#content .content-section .heading{
+    text-align: center;
+    margin: 15px auto;
+}
+
+#content .content-section .heading{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#content .content-section .content-desc{
+    margin: 15px auto;
+    line-height: 22.5px;
+}
+
+#content .member-info{
+    margin-top: 48px;
+}
+
+#content .member{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .member .member-name{
+    font-size: 15px;
+}
+
+#content .member img{
+    width: 154px;
+    line-height: 22.5px;
+    margin: 16px 0px;
+    border-radius: 4px;
+}
+
+/* Tour Section */
+#tour-section{
+    background-color: #000;
+}
+
+/*#footer{
 
 } */
