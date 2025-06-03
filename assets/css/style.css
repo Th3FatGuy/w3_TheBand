@@ -9,6 +9,8 @@
 
 } */
 
+/* Unique CSS */
+
 html{
     font-family: Lato, sans-serif;
 }
@@ -24,6 +26,50 @@ html{
 .text-black{
     color: #000 !important;
 }
+
+.float-right{
+    float: right;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mt-8px{
+    margin-top: 8px !important;
+}
+
+.mt-16px{
+    margin-top: 16px !important;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+/* Tag */
 
 #header{
     position: fixed;
@@ -257,7 +303,7 @@ html{
     margin-top: 15px;
 }
 
-.buy-ticket-btn{
+.btn{
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: rgba(0,0,0);
@@ -267,10 +313,49 @@ html{
     text-decoration: none;
 }
 
-.buy-ticket-btn:hover{
+.btn:hover{
     background-color: rgb(204, 204, 204);
     color: #000 !important;
 }
+
+/* Contact form */
+#contact .contact-section{
+    margin-top: 48px;
+}
+
+#content .contact-section .contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#contact .contact-info i{
+    width: 30px;
+    display: inline-block;
+}
+
+#contact .email-form{
+    font-size: 15px;
+}
+
+.email-form .form-control{
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+/* .email-form .form-submit{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.email-form .form-submit:hover{
+    background-color: #757575;
+    color: #fff !important;
+} */
 
 /*#footer{
 
